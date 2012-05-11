@@ -1,0 +1,3 @@
+<label for="<?=$field_name?>"><?=$label?> <? if ($required) { echo '<span class="required">*</span>'; } ?></label>
+<input name="<?=$field_name?>" id="<?=$fieldid?>" type="checkbox" value="1" class="checkbox_radio<?=$class[$type][$field]?>"<? if ($field_value=="1") { echo 'checked="checked"'; } ?> />
+<p class="description"><?=$description?> <span class="field_message"><?=$message[$type][$field]?></span></p>

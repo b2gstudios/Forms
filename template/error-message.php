@@ -1,0 +1,1 @@
+<div class="message"><table><tr><td valign="middle"><img src="<?=site_address.static_images_folder?>delete.gif" /></td><td><span class="error_message"><?=$exclamation?></span></td></table></div><br /><br />

@@ -1,0 +1,1 @@
+<div class="message"><table><tr><td valign="middle"><img src="<?=site_address.static_images_folder?>tick.gif" /></td><td><?=$exclamation?></td></table></div><br /><br />
