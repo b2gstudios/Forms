@@ -16,6 +16,7 @@
   </tr>
    <tr>
     <td>
+      
     <?php
 	$form_id = mysql_real_escape_string($_GET["form"]);
 	$frm = mysql_fetch_array(mysql_query("select `name` from `forms` where `id` = '".$form_id."'"));
